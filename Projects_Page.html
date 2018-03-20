@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+    .ul {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+.btn
+
+.navbar {
+    height: auto;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #000000;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+    height: 450px
+}
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #fffff;
+    height: 100%;
+}
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #400080;
+    color: white;
+    padding: 30px;
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="MyProject.html"> <img alt= "Home"
+    src=C:\Users\Admin\Desktop\Web_Development\Images\home_button.jpg
+    width="48px" height="32px"/>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="MyProject.html">Home</a></li>
+                    <li><a href="About_Me_Page.html">About Me</a></li>
+                    <li>
+                        <a href="#">
+                            <button type="button" class="btn btn-primary"><i class="fa fa-fw fa-search-plus" style="color:black"></i>Projects</button>
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                                <li class="dropdown-header">Making My webiste</li>
+                                <li><a href="Making_My_Website.html"><i class="fa fa-fw fa-envelope"></i> View Project</a></li>
+                            </ul>Projects</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <p><a href="#"></a></p>
+            </div>
+            <div class="col-sm-8 text-left">
+                <h1>My Projects</h1>
+                <div class="container-fluid">
+                    <div class="row">
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th class="">Project</th>
+                                    <th class="">Status</th>
+                                </tr>
+                                <tr>
+                                    <td class="">Making A Personal Website</td>
+                                    <td class="">
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-success" title="Click to View Project">View Project</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <div align="center">
+            <p><b><u><h4>Social Media</h4></u></b> Twitter: @Charlie__Reilly
+                <br/>
+                <br/>
+            </p>
+        </div>
+        <div align="center">
+            <p>If you wish to <u>contact me</u> you can<strong>: </strong>
+                <ul class="ul">
+                    <li>Email me at: <strong style="color:#99d6ff">charles.reilly4@gmail.com</strong></li>
+                    <li>Message me directly <a style="color: yellow" href="https://www.linkedin.com/in/charles-reilly-92b18a12a/"><u><b>here</b></u></a> on LinkedIn.</li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

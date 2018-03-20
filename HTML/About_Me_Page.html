@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=3">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+
+    .ul {
+        display:inline-block;
+        margin-right:10px;
+}
+    }
+
+    .navbar {
+    	height: auto;
+        margin-bottom: 0;
+        border-radius: 0;
+        background-color: black;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+
+    .row.content {
+        height: 450px
+    }
+    /* Set gray background color and 100% height */
+
+    .sidenav {
+        padding-top: 20px;
+        background-color: #fffff;
+        height: 100%;
+    }
+    /* Set black background color, white text and some padding */
+
+    footer {
+        background-color: #400080;
+        color: white;
+        padding: 30px;
+    }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+
+    @media screen and (max-width: 767px) {
+        .sidenav {
+            height: auto;
+            padding: 15px;
+        }
+        .row.content {
+            height: auto;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="MyProject.html"> <img alt= "Home"
+    src=C:\Users\Admin\Desktop\Web_Development\Images\home_button.jpg
+    width="48px" height="32px"/>
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="MyProject.html">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="Projects_Page.html">Projects</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <div class="col-sm-2 sidenav">
+                <p><a href="#"></a></p>
+                <p><a href="#"></a></p>
+                <p><a href="#"></a></p>
+            </div>
+            <div class="col-sm-8 text-left">
+                <h1>About Me</h1>
+                <p>23-year old trainee software tester, currently living in Salford, Manchester. Graduated from the University of Manchester in 2016 with a Second-Class Division-One (2:1) Bachelor's degree in Mathematics. Whilst at university I also acheived Gold Manchester Leadership Award and was a qualified call taker at the Manchester branch of Nightline.
+                </p>
+                <hr>
+                Will hopefully be starting work with Cognizant on 11th April 2018.
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid text-center">
+        <div align="center">
+            <p><b><u><h4>Social Media</h4></u></b> Twitter: @Charlie__Reilly
+                <br/>
+                <br/>
+            </p>
+        </div>
+        <div align="center">
+            <p>If you wish to <u>contact me</u> you can<strong>: </strong>
+                <ul class="ul">
+                    <li>Email me at: <strong style="color:#99d6ff">charles.reilly4@gmail.com</strong></li>
+                    <li>Message me directly <a style="color: yellow" href="https://www.linkedin.com/in/charles-reilly-92b18a12a/"><u><b>here</b></u></a> on LinkedIn.</li>
+                </ul>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html> 
+
